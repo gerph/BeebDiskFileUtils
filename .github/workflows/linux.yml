@@ -25,7 +25,7 @@ name: Linux
 #   * tag creation for tags beginning with a 'v'
 on:
   push:
-    branches: ["*"]
+    branches: ["**"]
   # Pull request events happen on pull request state transitions, so we probably don't want this here.
   #pull_request:
   #  branches: ["*"]
